@@ -1,0 +1,88 @@
+/* Paleta do site
+.color1 { #e6e1cd }; cinza 
+.color2 { #c6d8c0 }; verde
+.color3 { #d6b3b1 }; lilás
+.color4 { #f97992 }; rosa
+.color5 { #231b42 }; roxo escuro
+*/
+body{
+margin: 0;
+background-color: #e6e1cd;
+}
+.atual{
+    color: #d6b3b1;
+}
+#home img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#sobre img{
+    width: 50%;
+    border-radius: 10px;
+}
+#sobre div p{
+    padding: 5px;
+}
+header{
+    background-color: #c6d8c0;
+    height:80px;
+    line-height: 80px;
+    width: 100%;
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-around;
+}
+header span{
+    color: #231b42;
+    font-size: 2rem;
+    user-select: none;
+}
+header nav a{
+    color: #f97992;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+header nav a:hover{
+    color: #d6b3b1;
+}
+main{
+    margin: auto;
+    width: 75%;
+    max-width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+h1, h2{
+    margin: auto;
+}
+h1{
+    color: #231b42;
+    marg
+}
+h2{
+    color: #f97992;
+}
+#home section{
+    justify-content: center;
+}
+footer{
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    background-color: #231b42;
+    color: #e6e1cd;
+    text-align: center;
+}
+#contato main ul{
+    list-style-type: none;
+}
+#contato main ul li{
+    margin-bottom: 10px;
+}
